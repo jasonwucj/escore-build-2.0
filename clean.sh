@@ -11,6 +11,8 @@ source ./common.sh
 # Clean up configuration settings.
 rm centos-7-x86_64.cfg
 rm common.sh
+rm escore-packages-list
+rm escore-comps.xml
 
 # Clean up the directories we made.
 rm -rf ./easystack/
